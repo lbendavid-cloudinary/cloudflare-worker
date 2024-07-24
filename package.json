@@ -1,0 +1,20 @@
+{
+  "name": "super-salad-d93f",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.4.5",
+    "@cloudflare/workers-types": "^4.20240722.0",
+    "typescript": "^5.5.2",
+    "vitest": "1.5.0",
+    "wrangler": "^3.60.3"
+  },
+  "packageManager": "pnpm@8.6.10+sha512.10194f760ac0aa62032ba95f94d9bc33896e79618ce0f2892039e0b7abc9d7e7e6ce1dded38f36b60e769d48e2b86be4cd9dac9e0035f3518baa49d78401e022"
+}
